@@ -1,55 +1,76 @@
-
 const ExperienceListe = [
-    {   title: "INSA Lyon",
+    {   
+        orderID: 10,
+        title: "Ereifej&Partners",
+        description: "Cabinet d'avocats",
+        image: require ("./ereifej.jpg"),
+        url : "https://www.ereifejlaw.com/",
+        city: "Lyon",
+        country: "France",
+        duration: "2017 - présent",
+        job: "Partner, responsable région France",
+        tasks: ["Responsable du portefeuille client sur la zone France.", "Conseil et suivi d'activité des entreprises et acteurs étatiques souhaitant établir une activité au Proche-Orient.", "Analyse juridique." ]
+    },
+
+    {   
+        orderID: 20,
+        title: "INSA Lyon",
         description: "Engineering school &amp; Research center",
-        image:"https://pbs.twimg.com/profile_images/795909150840619008/CLzz3UaU_400x400.jpg",
+        image:require("./INSA.png"),
         url : "https://www.insa-lyon.fr/",
         city: "Lyon",
         country: "France",
         duration: "2017 - 2018",
         job: "Coordinateur de projets",
-        tasks: ["Performed donor contracts coordination (European Comission, French Research Agency, Region, up to 3.5 M€)", "Led and realised data base exploitation projects (>450k datas) to provide strategic direction.", "partnership contracts (>25 Consortium agreements)", ]
+        tasks: ["Garantir le suivi des contrats de recherche financés sur fonds publics (Commission européenne, Agence Nationale de Recherche (projets jusqu'à 3,5 Millions d'euros).", "Restructuration de la base de données (>450k données) et productions d'outil de pilotage d'activités.", "Redaction et gestion des accords de consortiums (15-20 consortiums/ans)." ]
     },
 
     {
+        orderID: 30,
+
     title: "Pulsalys",
     description: "Incubator for high tech spinoffs",
-    image: "https://www.pulsalys.fr/wp-content/uploads/2016/11/pls.png",
+    image: require("./pulsalys.png"),
     url : "https://www.pulsalys.fr/",
     city: "Lyon",
     country: "France",
     duration: "2016",
     job: "Responsable juridique / Juriste PI",
-    tasks: ["Management d'une équipe de 3 juristes", "Negociation, sécurisation des accords de recherche et de transferts de technologies (jusqu'à 300 k€", "Retraitement de la base de données juridiques (>90k datas)", "partnership contracts (>25 Consortium agreements)", "Création de matrice automatisée de création des contrats (gain de productivité de 2,5 jours / mois)"]
+    tasks: ["Management d'une équipe de 3 juristes.", "Negociation, sécurisation des accords de recherche et de transferts de technologies (jusqu'à 300 k€).", "Retraitement de la base de données juridiques (>90k datas)", "partnership contracts (>25 Consortium agreements).", "Création de matrice automatisée de création des contrats (gain de productivité de 2,5 jours / mois)."]
 },
 
-{
+{        orderID: 40,
+
     title: "ACTED",
     description: "top 3 des ONG françaises",
-    image:"https://www.acted.org/wp-content/uploads/2019/02/22759-312252599928-3469552-n.jpg",
+    image:require("./ACTED.png"),
     url : "https://www.acted.org/",
     city: "Bamako",
     country: "Mali",
     duration: "2015",
     job: "Chargé de développement de projets",
-    tasks: ["Garantir la qualité des interactions avec les bailleurs de fonds. Reporting, réponses aux appels à projet (jusqu'à 3 M€ - USAID, ECHO, UNHCR)", "Garantir la bonne gestion des consortiums et des deadlines projets", "Rédiger les contrats internationaux de partenariat", ]
+    tasks: ["Garantir la qualité des interactions avec les bailleurs de fonds. Reporting, réponses aux appels à projet (jusqu'à 3 M€ - USAID, ECHO, UNHCR).", "Garantir la bonne gestion des consortiums et des deadlines projets.", "Rédiger les contrats internationaux de partenariat.", ]
 },
 {
+    orderID: 50,
+
     title: "Université de Nantes",
     description:"Pole Contrat - Assistance aux laboratoires de recherche",
-    image: "https://www.jdpsychologues.fr/sites/default/files/universite/nantes.png",
+    image: require("./Univ.Nantes.png"),
     url : "https://www.univ-nantes.fr/",
     city: "Nantes",
     country: "France",
     duration: "2013 - 2014",
     job: "Responsable juridique",
-    tasks: ["Superviser et valider les projets de recherche gérés par le Pôle Contrat / Pôle Europe (9 personnes – avril à sept 2014)", "realised data base exploitation projects (>450k datas) to provide - Garantir l’optimisation financière, juridique et fiscale des montages de projets de recherche des 	laboratoires."]
+    tasks: ["Superviser et valider les projets de recherche gérés par le Pôle Contrat / Pôle Europe (9 personnes – avril à sept 2014).", "Garantir l’optimisation financière, juridique et fiscale des montages de projets de recherche des laboratoires."]
 },
 
 {
+    orderID: 60,
+
     title: "CNRS",
     description: "Service Partenariats & Valorisation (SPV)",
-    image: "https://upload.wikimedia.org/wikipedia/fr/thumb/8/8e/Centre_national_de_la_recherche_scientifique.svg/1024px-Centre_national_de_la_recherche_scientifique.svg.png",
+    image: require("./CNRS.jpg"),
     url : "https://www.cnrs.Fr",
     city: "Marseille",
     country: "France",
@@ -60,9 +81,10 @@ const ExperienceListe = [
 
 
 {
+    orderID:70,
     title: "SAPEM",
     description: "PME spécialisée dans le levage industriel",
-    image: "https://entreprise.pole-emploi.fr/static/img/minisite/8eef4202-dd27-450c-b868-546930a45bdf.png",
+    image: require("./sapem.png"),
     url : "https://www.sapem-sa.com/",
     city: "Le-Mesnil-le-Roy",
     country: "France",

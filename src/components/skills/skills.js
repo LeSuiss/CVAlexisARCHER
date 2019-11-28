@@ -18,11 +18,11 @@ const Skills = () => {
             <Row id="rowSkills">
 
             <Col md="10" className="colSkills ">
-                    <h4 className="title">Développement informatique</h4>
-                    <Row className="lineDivider"></Row>
+                <h4 className="title">Développement informatique</h4>
+                <Row className="lineDivider"></Row>
 
-                    <Row className="icons">
-            {tabImage.map(x=> <img alt=""  src={require(`./img/${x}.svg`)}/>)}
+                <Row className="icons">
+            {tabImage.map(x=> <img alt="" src={require(`./img/${x}.svg`)}/>)}
             </Row>
             </Col>
             </Row>
@@ -60,7 +60,7 @@ const Skills = () => {
             </Col>
 
             <Col md="3" className="colSkills">
-                <h4 className="title">Juridique</h4>
+                <h4 className="title">Gestion de projets</h4>
                 <Row className="lineDivider"></Row>
 
                 <Row className="icons">

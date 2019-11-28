@@ -4,6 +4,8 @@ import Header from './components/header/Header.js';
 import Skills from './components/skills/skills';
 import Experiences from './components/experiences/Experiences';
 import Formation from './components/formations/Formations'
+import Book from './components/book/book';
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Skills />
       <Experiences />
       <Formation />
+      <Book />
+      <Footer />
 
 
     </div>
