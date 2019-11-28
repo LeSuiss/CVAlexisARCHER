@@ -6,7 +6,7 @@ const Book = () => {
 
     const tab = [
         {title: "Projet Pro: Wadirumtent.com",
-        url: "",
+        url: "https://festive-hopper-25eb0c.netlify.com/",
         image:require("../../images/wadirumtent.png"),
         toBeNoted:"Site réalisé pour un client jordanien. Sa finition est en standby/attente de retour client",
         description:"Vous souhaitez découvrir la Jordanie. Venez découvrir, avec Petra, la seconde merveille de la Jordanie: le desert du WadiRum. Bénéficiez des services d'hebergement & activités offert par Khaled de WadiRumtent", 
