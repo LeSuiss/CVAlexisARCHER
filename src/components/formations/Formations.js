@@ -13,13 +13,13 @@ const Formation = () => {
                 
                 <Col className="square" sm='5'>
 
-                    <Row className="formationHeader">    
+                    <Row className="formationHeader title" >    
                         
-                        <Col sm="9 "><h4>Université de Nantes <br /><small>
+                        <Col  sm="9 "><h4>Université de Nantes <br /><small>
                             <strong>IEMN - IAE</strong>
                         </small></h4>
                         </Col>
-                        <Col sm="3"><h5> 2010 <br/>-<br/> 2011</h5></Col>
+                        <Col sm="3" ><h5> 2010 <br/>-<br/> 2011</h5></Col>
 
                     </Row>
                     <Row className="lineDivider"></Row>
@@ -37,7 +37,7 @@ const Formation = () => {
             
                 <Col className="square" sm='5'>
 
-            <Row className="formationHeader">    
+                <Row className="formationHeader title" >    
                         
                         <Col sm="9 "><h4>University of Nantes <br /><small>
                             <strong>IEMN - IAE</strong>

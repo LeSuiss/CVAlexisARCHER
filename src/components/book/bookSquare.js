@@ -1,10 +1,7 @@
 import React from 'react'
 import {Row, Col} from 'reactstrap'
 
-/* 
-title: "Réalisation professionnelle: Wadirumtent.com",
-image:url: skills:toBeNoted;description:
-         */
+
 const BookSquare = ({title, image, url, skills, toBeNoted, description}) => {
     
 
@@ -16,15 +13,14 @@ const BookSquare = ({title, image, url, skills, toBeNoted, description}) => {
 
                 <h4 className="title">{title}</h4>
                 <Row className="lineDivider"></Row>
-
-
             </Row>
-
 
 
             <Row className="bookBody"><a href={url}>
                 <img alt="" src={image}/>
-                Visiter ce projet
+            {
+        title === "Ce site internet"?
+        "": "visitez ce site"}
             </a>
 
             </Row>

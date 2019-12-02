@@ -7,7 +7,7 @@ const Footer = () => {
 
     return(
         <footer>
-            <a>
+            <a href="mailto:archer.alexis@hotmail.fr">
                 <img alt="Icon for contact" src={mail} />
             </a> 
             <div>

@@ -6,7 +6,7 @@ const Book = () => {
 
     const tab = [
         {title: "Projet Pro: Wadirumtent.com",
-        url: "https://festive-hopper-25eb0c.netlify.com/",
+        url: "http://wadirumtent.com",
         image:require("../../images/wadirumtent.png"),
         toBeNoted:"Site réalisé pour un client jordanien. Sa finition est en standby/attente de retour client",
         description:"Vous souhaitez découvrir la Jordanie. Venez découvrir, avec Petra, la seconde merveille de la Jordanie: le desert du WadiRum. Bénéficiez des services d'hebergement & activités offert par Khaled de WadiRumtent", 
@@ -14,7 +14,7 @@ const Book = () => {
 
         },
         {title: "le guide du cancre",
-        url: "",
+        url: "https://festive-hopper-25eb0c.netlify.com",
         image:require("../../images/guideduCancre.png"),
         toBeNoted:"Réalisation du projet 2/3 de la formation à la WCS. Par équipe de 3, l'objectif était de réaliser un site en pur HTML5 et CSS3. Personnes sérieuses s'abstenir !",
         description:"parce que je suis persuadé que le rire est le meilleur vecteur d'apprentissage. Vous avez été étudiant? les farces de Gaston Lagaffe sont votre source d'inspiration? venez jetez un coup d'oeil !", 
@@ -22,7 +22,7 @@ const Book = () => {
 
         },
         {title: "Hackathon 1",
-        url: "",
+        url: "https://hackathonwcs1.netlify.com",
         image:require("../../images/Hackathon1.png"),
         toBeNoted:"Hackathon mené par équipe de 5 sur 24h. Réalisation en binome de la partie 'History' et forte contribution au CSS global" ,
         description:"Sur le theme d'Halloween, avec pour seules ressources notre motivation et une API: Un challenge pour ceux qui aiment le code et peu dormir. Decouvrez notre réalisation d'un bestiaires et d'une aventure dont vous êtes le heros ! ", 
@@ -30,7 +30,7 @@ const Book = () => {
 
         },
         {title: "Projet WCS 2: ISS VIEWERS",
-        url: "", 
+        url: "https://whereistheiss.netlify.com", 
         image:require("../../images/issStreetView.png"),
         toBeNoted:"Réalisation du projet 2/3, finition en standby (attente retour client)",
         description:"par équipe de 5, sur le theme d'Halloween, avec pour seules ressources notre motivation et une API: Un challenge pour ceux qui aiment le code et peu dormir. Decouvrez notre réalisation d'un bestiaires et d'une aventure dont vous êtes le heros ! ", 
@@ -41,7 +41,7 @@ const Book = () => {
         {title: "Ce site internet",
         url: "", 
         image:require("../../images/site.png"),
-        toBeNoted: "Entierement responsive et réalisé en react. Il a vocation a évolué au fur et à mesure du temps et de mon apprentissage. N'hésitez pas à me faire par de vos retours sur celui-ci", 
+        toBeNoted: "Entierement responsive et réalisé en react. Il a vocation a évoluer au fur et à mesure du temps et de mon apprentissage. N'hésitez pas à me faire par de vos retours sur celui-ci", 
         description:"Venez découvrir mon parcours, ma première vie professionnelle en tant que juriste propriété intellectuelle, puis ma reconversion pour ma passion d'adolescent: l'informatique", 
         skills:[1,2,3,5,11]
 
