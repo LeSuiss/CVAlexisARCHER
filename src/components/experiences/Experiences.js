@@ -14,7 +14,7 @@ const Experiences = () => {
                 </Col>
             </Row>
             <Row>
-                {ExperienceListe.map(x=> <ExperienceSquare key="title" {...x}/>)}
+                {ExperienceListe.map((x,y)=> <ExperienceSquare key={y} {...x}  value="jeKiffeAlex"/>)}
             </Row>
             </Container>
 

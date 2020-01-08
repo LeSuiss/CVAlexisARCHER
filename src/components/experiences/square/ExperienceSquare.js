@@ -47,7 +47,7 @@ const ExperienceSquare = (props) => {
                         <Row className="titleRow">
                             <Col md="12" className="title-company">
                                 <a href={props.url} target="_blank" rel="noopener noreferrer">
-                                    <h3>{props.job} </h3>
+                                    <h3>{props.value} </h3>
                                 </a>
                         
                             </Col>

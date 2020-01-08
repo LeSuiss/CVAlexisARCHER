@@ -8,7 +8,7 @@ const Skills = () => {
     const tabImage = [1,2,3,4,5,6,7,8,9,10,11]
     return(
         
-        <Container className="xpContainer">
+        <Container className="skillsContainer">
             <Row>
                 <Col md="12">
                     <h2 className="title">Mes Compétences</h2>
