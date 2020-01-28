@@ -5,26 +5,19 @@ import {Row, Col, Collapse, Button} from 'reactstrap'
 const ExperienceSquare = (props) => {
     const [toggle, setToggle] = useState(false);
     const [widthCol, setWidthCol] = useState(3)
-    const [orderCol, setOrderCol] = useState(props.orderID)    
     
     const handleCol = ()=>{
-        window.innerWidth>768 &&(
-        orderCol>=50? setOrderCol(35):setOrderCol(45));
-        setWidthCol(10);
         setToggle(!toggle);
         }
     
         const closeCol = () =>{
-        setOrderCol(props.orderID)
         setToggle(!toggle)
-        setWidthCol(3);
     }
 
-    const displayToggle = ()=>{ toggle? closeCol() :handleCol() }
 
 
     return(     
-                <Col className={`square col-md-${widthCol}`} style={{order :`${orderCol}`}}>
+                <Col className={`square col-md-${widthCol} testAlex`} >
                     <div className="heading" >
 
                         <Row id="test" className="headingRow">
@@ -47,14 +40,15 @@ const ExperienceSquare = (props) => {
                         <Row className="titleRow">
                             <Col md="12" className="title-company">
                                 <a href={props.url} target="_blank" rel="noopener noreferrer">
-                                    <h3>{props.value} </h3>
+                                    <h3>{props.title}</h3>
                                 </a>
                         
                             </Col>
                         
                         </Row>
                         <Row className="titleButton">
-                        <Button onClick={()=>displayToggle()}   >plus d'informations</Button></Row>    
+                            
+                        <Button onClick={()=>setToggle(!toggle)}   >plus d'informations</Button></Row>    
                     </div>
                     
                     <Collapse isOpen={toggle}>            
